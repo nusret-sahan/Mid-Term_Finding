@@ -31,12 +31,12 @@ class NumberUtil {
 	public static int mid(int a, int b, int c)
 	{
 		if (b <= a && a <= c || c <= a && a <= b)
-        	return a;
+        		return a;
 		
 		else if (a <= b && b <= c || c <= b && b <= a)
-            return b;
+            		return b;
          
-        else
-        	return c;	
+        	else
+        		return c;	
 	}
 }
